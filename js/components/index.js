@@ -29,7 +29,7 @@ var Home = React.createClass({
 							<p><a href="mailto:kasturi.dona@gmail.com" className="fa fa-envelope-o social-icons" aria-hidden="true"></a></p>
 					</div>
 					<div className="col-xs-6">
-						<img className="profile-pic img-responsive" src="images/profile_pic2.jpg" alt="Kasturi Ghosh Das"></img>
+						<img className="profile-pic img-responsive" src="images/profile-pic.jpg" alt="Kasturi Ghosh Das"></img>
 						<div className="home-info">
 							<h1><span className="place"> Hi, I&#39;m </span><span className="designation">Kasturi</span></h1>
 							<hr></hr>
@@ -116,7 +116,7 @@ var About = React.createClass({
         <div className="about">
           <h3>
             I&#39;M FROM INDIA<br /><hr></hr>
-          I grew up in the serene hill stations of India, on the foothills of the Himalayas where I attended boarding school at <a href="http://www.sthelenskurseong.com/" className="about-link" target="_blank">St.Helenâ€™s School, Kurseong.</a>
+          I grew up in the serene hill stations of India, on the foothills of the Himalayas where I attended boarding school at <a href="http://www.sthelenskurseong.com/" className="about-link" target="_blank">St.Helen&#39;s School, Kurseong.</a>
           </h3>
         </div></div>
         <div><img src="images/bangalore.png" className="slider-image" />
@@ -127,7 +127,7 @@ var About = React.createClass({
         My first job was a Systems Analyst role at <a href="https://www.infosys.com/" className="about-link" target="_blank">Infosys</a> where I worked on the .NET framework.
           </h3>
         </div></div>
-        <div><img src="images/school.jpg" className="slider-image" />
+        <div><img src="images/iim.jpg" className="slider-image" />
         <div className="about">
           <h3>
             AFTER COLLEGE<br /><hr></hr>
@@ -141,19 +141,19 @@ var About = React.createClass({
           <h3>
             I MOVED DOWN UNDER<br /><hr></hr>
           2015 was big! I got married and moved to Sydney.<br /><hr className="no-border"></hr>
-        I focused on full stack Web Development by enrolling into <a href="https://generalassemb.ly/education/web-development-immersive/sydney" className="about-link" target="_blank">General Assemblyâ€™s Week Web Development Immersive Course</a> (it literally changed my life).<br /><hr className="no-border"></hr>
+        I focused on full stack Web Development by enrolling into <a href="https://generalassemb.ly/education/web-development-immersive/sydney" className="about-link" target="_blank">General Assembly&#39;s Week Web Development Immersive Course</a> (it literally changed my life).<br /><hr className="no-border"></hr>
       I enjoyed every moment of the 12 weeks I spent there and I loved learning about the wonderful new technologies being developed on the front and back ends.
           </h3>
         </div></div>
-        <div><img src="images/coding1.jpg" className="slider-image" />
+        <div><img src="images/coding2.jpg" className="slider-image" />
         <div className="about">
           <h3>
             WEB DEVELOPMENT EXPERIENCE<br /><hr></hr>
-            Since graduating from General Assemblyâ€™s WDI 10 batch, I have been working on short-term contract roles for different companies.<br /><hr className="no-border"></hr>
+            Since graduating from General Assembly&#39;s WDI 10 batch, I have been working on short-term contract roles for different companies.<br /><hr className="no-border"></hr>
             I did a 2 month internship at a startup, worked as a Teaching Assistant for WDI 13, contracted as a Graduate developer at Rozetta Technology and now I&#39;m completing a Junior front-end developer role at a FinTech, working closely with React.
           </h3>
         </div></div>
-        <div><img src="images/coding2.jpg" className="slider-image" />
+        <div><img src="images/coding1.jpg" className="slider-image" />
         <div className="about">
           <h3>
             WHAT I&#39;D LIKE TO DO NEXT<br /><hr></hr>
@@ -168,7 +168,7 @@ var About = React.createClass({
             <a href="http://www.sydjs.com/">
               <img src="images/sydjs.png" className="meetup-logos" target="_blank" /> </a>
             <a href="http://ruby.org.au/meetups/syd.html">
-              <img src="images/roro.jpeg" className="meetup-logos" target="_blank" /> </a>
+              <img src="images/roro.png" className="meetup-logos" target="_blank" /> </a>
             <a href="http://www.girlgeeksydney.com/">
               <img src="images/girl-geek.jpg" className="meetup-logos" target="_blank" /> </a>
             <a href="http://www.meetup.com/SydCSS/?chapter_analytics_code=UA-43179276-1">
@@ -189,8 +189,8 @@ var Blog = React.createClass({
     return (
       <div className="blog">
         <h1>HOW TO BECOME A WEB DEVELOPER THROUGH SELF STUDY</h1><hr></hr>
-        <p>Becoming a Web Developer is no cake walk. Youâ€™ll need to dive into coding and conduct a lot of research. Thankfully, the development community is welcoming and hosts many <a href="http://www.meetup.com/">meetups</a> that talk about technology, web development and help build networks. They are open to all and graduates / juniors can make use of this platform to enter into the development industry.</p>
-        <p>Iâ€™ve been coding full time since last August with <a href="https://generalassemb.ly/">General Assembly</a>, and apart from the Web Development Immersive Course that I attended, Google has been my best friend.</p>
+        <p>Becoming a Web Developer is no cake walk. You&#39;ll need to dive into coding and conduct a lot of research. Thankfully, the development community is welcoming and hosts many <a href="http://www.meetup.com/">meetups</a> that talk about technology, web development and help build networks. They are open to all and graduates / juniors can make use of this platform to enter into the development industry.</p>
+        <p>I&#39;ve been coding full time since last August with <a href="https://generalassemb.ly/">General Assembly</a>, and apart from the Web Development Immersive Course that I attended, Google has been my best friend.</p>
         <p>I found these websites and tutorials to be extremely handy in multiple occasions -</p>
         <ul>
           <li><a href="http://stackoverflow.com/">Stackoverflow</a></li>
@@ -206,7 +206,7 @@ var Blog = React.createClass({
           <li><a href="http://www.codecamp.com.au/">Codecamp</a></li>
           <li>Many youtube tutorials</li>
         </ul>
-        <p>There are countless more and I recommend you subscribe to online training programs where they teach you the basics of web development. With a lot of time and effort youâ€™ll get there.</p>
+        <p>There are countless more and I recommend you subscribe to online training programs where they teach you the basics of web development. With a lot of time and effort you&#39;ll get there.</p>
         <p>There are two parts to web development: <a href="https://teamtreehouse.com/tracks/front-end-web-development">Front-End</a> and <a href="https://www.techopedia.com/definition/29568/back-end-developer">Back-End</a>. <a href="https://www.bloc.io/web-development-bootcamp">Full-Stack web development</a> is the combination of the two, and where I hope to eventually end up.</p><hr></hr>
         <h2>FRONT-END WEB DEVELOPMENT</h2><hr></hr>
         <p>Its all about the GUI ( Graphic User Interface ). The front-end deals with the flow of information on your website or app, form submissions, making charts and graphs dynamic ( real time data ), connecting various modules of the website or app. Basically everything visual that you see in an app or a website is the work of a front-end developer.</p>
@@ -245,7 +245,7 @@ var Blog = React.createClass({
           <li><a href="https://www.microsoft.com/net">.Net ( C# / VB )</a></li>
           <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
           <li><a href="https://www.perl.org/">Perl</a></li>
-          <li>Node.js - JavaScriptâ€™s server side language. Node.js helps in binding client side to the server side technologies. Check out <a href="https://nodejs.org/en/">Nodejs.org/en/</a> and <a href="http://www.tutorialspoint.com/nodejs/">www.tutorialspoint.com/nodejs/</a>.</li>
+          <li>Node.js - JavaScrip&#39;s server side language. Node.js helps in binding client side to the server side technologies. Check out <a href="https://nodejs.org/en/">Nodejs.org/en/</a> and <a href="http://www.tutorialspoint.com/nodejs/">www.tutorialspoint.com/nodejs/</a>.</li>
         </ul>
         <p><span className="bold">Database tools</span> - If you&#39;re looking to build an app, you need a database to find, save, or change data and return it back to the user via front-end code.</p>
         <ul>
@@ -353,7 +353,7 @@ var Resume = React.createClass({
 					<h2>ACHIEVEMENTS</h2>
 					<p className="edu">School valedictorian</p>
 					<p className="edu">Winner of the IEEE Tech Quest</p>
-					<p className="edu">President of the â€˜Striversâ€™ club</p>
+					<p className="edu">President of the Striver&#39;s club</p>
 					<hr></hr>
 					<h3>INTERESTS</h3>
 					<p className="edu">Boardgames</p>
@@ -432,7 +432,7 @@ var Resume = React.createClass({
 							</div>
 						</div>
 					<p className="title">Senior System Engineer | Pune</p>
-					<p className="role">As a Systems Analyst, I was trained on the .Net Framework (CGPA: 4.91/5.0) I worked for a Microsoft project (MSIT) where I played a key role in stabilising the project from the very root of it which involved flexibility, talent and soft skills.</p>
+					<p className="role">As a Systems Analyst, I was trained on the .Net Framework. I worked for a Microsoft project (MSIT) where I played a key role in stabilising the project from the very root of it which involved flexibility, talent and soft skills.</p>
 				</div>
 			{ /* <img src="images/myCV.png" className="img-responsive cv" />
          <a href="/file/Kasturi-CV.pdf">Click here to view fullscreen</a><br /><hr></hr>
