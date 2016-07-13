@@ -208,7 +208,6 @@ span.project-content {
 }
 .project:hover span.project-content {
   opacity: 1;
-  min-width: 585px;
   min-height: 371px;
 }
 .project-link {
