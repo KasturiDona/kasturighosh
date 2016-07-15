@@ -336,6 +336,21 @@ span.project-content {
   }
 }
 @media only screen and (max-width: 767px) {
+  .slider-image {
+    margin: 0 auto;
+    height: 300px;
+  }
+  .about h3 {
+    font-size: 1em;
+  }
+  .slick-prev, .slick-next {
+    height: 20px;
+    width: 20px;
+  }
+  .slick-prev:before, .slick-next:before {
+    font-size: 15px;
+    line-height: 1.55;
+  }
   .main-content {
     margin-top: 180px;
   }
@@ -428,24 +443,15 @@ span.project-content {
 @media only screen and (max-width: 991px) {
   .slider-image {
     margin: 0 auto;
-    height: 300px;
   }
   .about h3 {
     width: 100%;
     margin-left: 0;
-    font-size: 1em;
   }
   .meetup-logos {
     width: 10%;
   }
-  .slick-prev, .slick-next {
-    height: 20px;
-    width: 20px;
-  }
-  .slick-prev:before, .slick-next:before {
-    font-size: 15px;
-    line-height: 1.55;
-  }
+
   .slick-prev {
     left: -12px;
   }
