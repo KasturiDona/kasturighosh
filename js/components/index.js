@@ -37,7 +37,7 @@ var Home = React.createClass({
 						</div>
 					</div>
 					<div className="col-xs-3 home-social">
-						<h2 className="description">Engineer<br />MBA<br />Bibliophile<br />Board-gamer</h2>
+						<h2 className="description">Engineer<br />MBA<br />Bibliophile</h2>
 					</div>
 				</div>
 			</div>
@@ -50,14 +50,14 @@ var Projects = React.createClass({
     return (
       <div className="container projects">
         <div className="row">
-          <div className="col-xs-6 project greatreads">
+          <div className="col-md-6 project greatreads">
             <h3 className="visible-content">GREAT READS</h3>
             <span className="project-content">GREAT READS<hr></hr>
             A website which allows users to create their Greatreads account, rate and review books as well as create reading lists of books added by the admin.<hr></hr>
           GoodReads API | Ruby on Rails | HTML/CSS | Javascript | jQuery | Bootstrap | Cloudinary<hr></hr>
         <a href="https://github.com/KasturiDona/GreatReads" className="project-link code">View Code </a><a href="https://greatreads.herokuapp.com/" className="project-link website">View Website</a></span>
           </div>
-          <div className="col-xs-6 project abp">
+          <div className="col-md-6 project abp">
             <h3 className="visible-content">ANYTHING BUT PIZZA</h3>
             <span className="project-content">ANYTHING BUT PIZZA<hr></hr>
             A website which allows users to sell and buy food from various localities using shopping carts, payment gateway and google maps.<hr></hr>
@@ -67,14 +67,14 @@ var Projects = React.createClass({
         </div>
 
         <div className="row">
-          <div className="col-xs-6 project tictactoe">
+          <div className="col-md-6 project tictactoe">
             <h3 className="visible-content">TIC-TAC-TOE</h3>
             <span className="project-content">TIC-TAC-TOE<hr></hr>
             My very first game of tic-tac-toe using vanilla javascript. There are opitions to play both 1 and 2 player games. The single player game uses the concept of AI.<hr></hr>
           HTML/CSS | Javascript <hr></hr>
         <a href="https://github.com/KasturiDona/tic-tac-toe" className="project-link code">View Code </a><a href="http://kasturidona.github.io/tic-tac-toe/html/gamepage.html" className="project-link website">Play Game</a></span>
           </div>
-          <div className="col-xs-6 project greenify">
+          <div className="col-md-6 project greenify">
             <h3 className="visible-content">GREENIFY</h3>
             <span className="project-content">GREENIFY<hr></hr>
              This is my first project using Three.js and Blender. You can plant seeds and watch them grow when it rains. The birds and sun appear when it is not raining.<hr></hr>
@@ -84,14 +84,14 @@ var Projects = React.createClass({
         </div>
 
         <div className="row">
-          <div className="col-xs-6 project weather">
+          <div className="col-md-6 project weather">
             <h3 className="visible-content">WEATHER APP</h3>
             <span className="project-content">WEATHER APP<hr></hr>
             A website that allows users to view the current weather conditions (temperature and humidity) for their current location alongwith the date and time.<hr></hr>
           Openweather API | HTML/CSS | Javascript | jQuery | moment.js<hr></hr>
         <a href="https://github.com/KasturiDona/weather-app" className="project-link code">View Code </a><a href="http://kasturidona.github.io/weather-app/" className="project-link website">View Website</a></span>
           </div>
-          <div className="col-xs-6 project cloudchecker">
+          <div className="col-md-6 project cloudchecker">
             <h3 className="visible-content">CLOUDCHECKER</h3>
             <span className="project-content">CLOUDCHECKER<hr></hr>
             I built the homepage for the Cloudchecker website while I was an intern.<hr></hr>
@@ -111,6 +111,7 @@ var About = React.createClass({
       fade: true
     };
     return (
+			<div className="container">
       <Slider {...settings}>
         <div><img src="images/himalayas.jpg" className="slider-image img-responsive" />
         <div className="about">
@@ -119,7 +120,7 @@ var About = React.createClass({
           I grew up in the serene hill stations of India, on the foothills of the Himalayas where I attended boarding school at <a href="http://www.sthelenskurseong.com/" className="about-link" target="_blank">St.Helen&#39;s School, Kurseong.</a>
           </h3>
         </div></div>
-        <div><img src="images/bangalore.png" className="slider-image" />
+        <div><img src="images/bangalore.png" className="slider-image img-responsive" />
         <div className="about">
           <h3>
             WHAT I USED TO DO<br /><hr></hr>
@@ -127,7 +128,7 @@ var About = React.createClass({
         My first job was a Systems Analyst role at <a href="https://www.infosys.com/" className="about-link" target="_blank">Infosys</a> where I worked on the .NET framework.
           </h3>
         </div></div>
-        <div><img src="images/iim.jpg" className="slider-image" />
+        <div><img src="images/iim.jpg" className="slider-image img-responsive" />
         <div className="about">
           <h3>
             AFTER COLLEGE<br /><hr></hr>
@@ -136,7 +137,7 @@ var About = React.createClass({
             This is where I realized my true calling as a developer!
           </h3>
         </div></div>
-        <div><img src="images/sydney.png" className="slider-image" />
+        <div><img src="images/sydney.png" className="slider-image img-responsive" />
         <div className="about">
           <h3>
             I MOVED DOWN UNDER<br /><hr></hr>
@@ -145,7 +146,7 @@ var About = React.createClass({
       I enjoyed every moment of the 12 weeks I spent there and I loved learning about the wonderful new technologies being developed on the front and back ends.
           </h3>
         </div></div>
-        <div><img src="images/coding2.jpg" className="slider-image" />
+        <div><img src="images/coding2.jpg" className="slider-image img-responsive" />
         <div className="about">
           <h3>
             WEB DEVELOPMENT EXPERIENCE<br /><hr></hr>
@@ -153,33 +154,34 @@ var About = React.createClass({
             I did a 2 month internship at a startup, worked as a Teaching Assistant for WDI 13, contracted as a Graduate developer at Rozetta Technology and now I&#39;m completing a Junior front-end developer role at a FinTech, working closely with React.
           </h3>
         </div></div>
-        <div><img src="images/coding1.jpg" className="slider-image" />
+        <div><img src="images/coding1.jpg" className="slider-image img-responsive" />
         <div className="about">
           <h3>
             WHAT I&#39;D LIKE TO DO NEXT<br /><hr></hr>
             I look forward to more permanent or long-term contract roles as a Junior Developer for an organization that will mentor me and help me transition into a more full-stack role.
           </h3>
         </div></div>
-        <div><img src="images/hackathon.jpg" className="slider-image" />
+        <div><img src="images/hackathon.jpg" className="slider-image img-responsive" />
         <div className="about">
           <h3>
             I&#39;M SOCIAL<br /><hr></hr>
           You&#39;ll often run into me at<br />
             <a href="http://www.sydjs.com/">
-              <img src="images/sydjs.png" className="meetup-logos" target="_blank" /> </a>
+              <img src="images/sydjs.png" className="meetup-logos img-responsive" target="_blank" /> </a>
             <a href="http://ruby.org.au/meetups/syd.html">
-              <img src="images/roro.png" className="meetup-logos" target="_blank" /> </a>
+              <img src="images/roro.png" className="meetup-logos img-responsive" target="_blank" /> </a>
             <a href="http://www.girlgeeksydney.com/">
-              <img src="images/girl-geek.jpg" className="meetup-logos" target="_blank" /> </a>
+              <img src="images/girl-geek.jpg" className="meetup-logos img-responsive" target="_blank" /> </a>
             <a href="http://www.meetup.com/SydCSS/?chapter_analytics_code=UA-43179276-1">
-              <img src="images/sydcss.jpeg" className="meetup-logos" target="_blank" /> </a>
+              <img src="images/sydcss.jpeg" className="meetup-logos img-responsive" target="_blank" /> </a>
             <a href="https://www.womenwhocode.com/sydney-australia">
-              <img src="images/women-who-code.jpg" className="meetup-logos" target="_blank" /></a>
+              <img src="images/women-who-code.jpg" className="meetup-logos img-responsive" target="_blank" /></a>
               <br /><hr className="no-border"></hr>
               I have participated in both Freelancer and NAB Hackathons. I organised a Hackathon at Rozetta Technology too!
           </h3>
         </div></div>
       </Slider>
+			</div>
     );
   }
 });
@@ -350,7 +352,7 @@ var Resume = React.createClass({
 					<p className="edu">Bangalore Institute of Technology<br />
 					Bangalore, India | 2005 - 2009</p>
 					<hr></hr>
-					<h2>ACHIEVEMENTS</h2>
+					<h3>ACHIEVEMENTS</h3>
 					<p className="edu">School valedictorian</p>
 					<p className="edu">Winner of the IEEE Tech Quest</p>
 					<p className="edu">President of the Striver&#39;s club</p>
@@ -468,7 +470,7 @@ var Portfolio = React.createClass({
     }
 
     return (
-      <div className="container">
+      <div className="">
         <NavHeader />
         <div className="main-content">
           <Child/>
