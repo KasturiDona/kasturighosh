@@ -33,7 +33,7 @@ var Home = React.createClass({
 						<div className="home-info">
 							<h1><span className="place"> Hi, I&#39;m </span><span className="designation">Kasturi</span></h1>
 							<hr></hr>
-							<h3><span className="place">A </span><span className="designation">Web Developer</span><span className="place"> based in Sydney, Australia.</span></h3>
+							<h3><span className="place">A Sydney based </span><span className="designation">Web Developer</span><span className="place"></span></h3>
 						</div>
 					</div>
 					<div className="col-xs-3 home-social">

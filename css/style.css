@@ -198,12 +198,12 @@
 span.project-content {
   background: rgba(0,0,0,0.7);
   color: #e5e5e5;
-  display: table;
   text-align: center;
   padding: 15px;
   left: 0;
   position: absolute;
   opacity: 0;
+  min-width: auto;
 }
 .project:hover span.project-content {
   opacity: 1;
@@ -428,21 +428,28 @@ span.project-content {
 @media only screen and (max-width: 991px) {
   .slider-image {
     margin: 0 auto;
+    height: 300px;
   }
   .about h3 {
     width: 100%;
     margin-left: 0;
-    font-size: 20px;
+    font-size: 1em;
   }
   .meetup-logos {
     width: 10%;
   }
+  .slick-prev, .slick-next {
+    height: 20px;
+    width: 20px;
+  }
+  .slick-prev:before, .slick-next:before {
+    font-size: 15px;
+    line-height: 1.55;
+  }
   .slick-prev {
-    top: 460px;
-    left: -17px;
+    left: -12px;
   }
   .slick-next {
-    top: 460px;
-    right: -17px;
+    right: -12px;
   }
 }
