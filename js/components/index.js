@@ -367,7 +367,7 @@ var Resume = React.createClass({
 					<h1>KASTURI GHOSH DAS</h1>
 					<h3>Web Developer</h3>
 					<hr></hr>
-					<p className="role">With a background in Engineering and Management. I love to code and de- sign. I am passionate about learning and developing new technologies. I am committed to meeting client milestones on schedule and under budget. I look for projects that challenge me.</p>
+					<p className="role">With a background in Engineering and Management, I love to code and de- sign. I am passionate about learning and developing new technologies. I am committed to meeting client milestones on schedule and under budget. I look for projects that challenge me.</p>
 					<h2>Work Experience</h2>
 					<hr></hr>
 					<div className="row">

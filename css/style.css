@@ -35,6 +35,14 @@
 .nav-li a {
   color: #fff;
 }
+.headerList li:hover, .headerList li:active, .headerList li:focus {
+  text-decoration: none;
+  color: #ffe4e1;
+}
+.nav-li a:hover, .nav-li a:active, .nav-li a:focus {
+  text-decoration: none;
+  color: #ffe4e1;
+}
 .main-content {
   margin-top: 100px;
 }
