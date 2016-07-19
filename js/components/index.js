@@ -5,11 +5,11 @@ var NavHeader = React.createClass({
 				<nav>
           <i className="fa fa-bars media-responsive"></i>
 					<ul className="headerList">
-						<li className="nav-li"><i className="fa fa-home" aria-hidden="true"></i> <a href="#/">Home</a></li>
-						<li className="nav-li"><i className="fa fa-smile-o" aria-hidden="true"></i> <a href="#/about">About</a></li>
-						<li className="nav-li"><i className="fa fa-graduation-cap" aria-hidden="true"></i> <a href="#/projects">Projects</a></li>
-						<li className="nav-li"><i className="fa fa-rss" aria-hidden="true"></i> <a href="#/blog">Blog</a></li>
-						<li className="nav-li"><i className="fa fa-sticky-note-o" aria-hidden="true"></i> <a href="#/resume">Resume</a></li>
+						<li className="nav-li"><a href="#/">Home</a></li>
+						<li className="nav-li"><a href="#/about">About</a></li>
+						<li className="nav-li"><a href="#/projects">Projects</a></li>
+						<li className="nav-li"><a href="#/blog">Blog</a></li>
+						<li className="nav-li"><a href="#/resume">Resume</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -21,12 +21,43 @@ var Home = React.createClass({
 	render: function() {
 		return (
 			<div className="home">
+				<div className="home-info">
+					<h1><span className="place"> Hi, I&#39;m </span><span className="designation">Kasturi</span></h1>
+					<h3><span className="place">A Sydney based </span><span className="designation">Web Developer</span><span className="place"></span></h3>
+					<hr></hr>
+					<div className="skillblock animated fadeIn">
+						<p>JavaScript</p>
+						<p>jQuery</p>
+						<p>React</p>
+						<p>HTML 5</p>
+						<p>CSS 3</p>
+						<p>Bootstrap</p>
+						<p>Data Visualisation</p>
+						<p>Ruby</p>
+						<p>Responsive</p>
+						<p>Agile</p>
+						<p>Team Player</p>
+					</div>
+					<hr></hr>
+				</div>
+				<div>
+				<a href="https://github.com/KasturiDona" className="fa fa-github social-icons" aria-hidden="true"></a>
+				<a href="https://twitter.com/DonaKasturi" className="fa fa-twitter social-icons" aria-hidden="true"></a>
+				<a href="https://au.linkedin.com/in/kasturi-ghosh-das-870726b7" className="fa fa-linkedin social-icons" aria-hidden="true"></a>
+				<a href="mailto:kasturi.dona@gmail.com" className="fa fa-envelope-o social-icons" aria-hidden="true"></a>
+				</div>
+			</div>
+		);
+	}
+});
+
+var HomeOld = React.createClass({
+	render: function() {
+		return (
+			<div className="home">
 				<div className="row">
 					<div className="col-xs-3 home-social">
-							<p><a href="https://github.com/KasturiDona" className="fa fa-github social-icons" aria-hidden="true"></a></p>
-							<p><a href="https://twitter.com/DonaKasturi" className="fa fa-twitter social-icons" aria-hidden="true"></a></p>
-							<p><a href="https://au.linkedin.com/in/kasturi-ghosh-das-870726b7" className="fa fa-linkedin social-icons" aria-hidden="true"></a></p>
-							<p><a href="mailto:kasturi.dona@gmail.com" className="fa fa-envelope-o social-icons" aria-hidden="true"></a></p>
+						<h2 className="description">Engineer<br />MBA<br />Bibliophile</h2>
 					</div>
 					<div className="col-xs-6">
 						<img className="profile-pic img-responsive" src="images/profile-pic.jpg" alt="Kasturi Ghosh Das"></img>
@@ -37,7 +68,10 @@ var Home = React.createClass({
 						</div>
 					</div>
 					<div className="col-xs-3 home-social">
-						<h2 className="description">Engineer<br />MBA<br />Bibliophile</h2>
+							<p><a href="https://github.com/KasturiDona" className="fa fa-github social-icons" aria-hidden="true"></a></p>
+							<p><a href="https://twitter.com/DonaKasturi" className="fa fa-twitter social-icons" aria-hidden="true"></a></p>
+							<p><a href="https://au.linkedin.com/in/kasturi-ghosh-das-870726b7" className="fa fa-linkedin social-icons" aria-hidden="true"></a></p>
+							<p><a href="mailto:kasturi.dona@gmail.com" className="fa fa-envelope-o social-icons" aria-hidden="true"></a></p>
 					</div>
 				</div>
 			</div>
@@ -305,7 +339,7 @@ var Blog = React.createClass({
 var Resume = React.createClass({
   render: function() {
     return (
-      <div className="resume">
+			<div className="resume row">
 				<div className="col-xs-4 sidebar">
 					<ul className="resume-contact">
 						<li><a href="https://github.com/KasturiDona" className="fa fa-github" aria-hidden="true"></a></li>
@@ -436,9 +470,6 @@ var Resume = React.createClass({
 					<p className="title">Senior System Engineer | Pune</p>
 					<p className="role">As a Systems Analyst, I was trained on the .Net Framework. I worked for a Microsoft project (MSIT) where I played a key role in stabilising the project from the very root of it which involved flexibility, talent and soft skills.</p>
 				</div>
-			{ /* <img src="images/myCV.png" className="img-responsive cv" />
-         <a href="/file/Kasturi-CV.pdf">Click here to view fullscreen</a><br /><hr></hr>
-        <iframe src="/file/Kasturi-CV.pdf" width="600px" height="700px">Resume</iframe> */}
       </div>
     );
   }

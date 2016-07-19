@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Orbitron:500,700);
 * {
   font-family: 'Josefin Sans', sans-serif;
   margin: 0 auto;
@@ -66,13 +67,28 @@
   color: #484848;
 }
 .social-icons {
-  font-size: 45px;
-  padding-bottom: 40px;
+  font-size: 30px;
+  padding: 0 5px;
   color: #FF7373;
 }
 .social-icons:hover {
   text-decoration: none;
   color: #f6546a;
+}
+.skillblock p {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 28px;
+  transition: font-size 0.8s ease, color 0.3s ease;
+}
+.skillblock p:hover {
+  color: #ff7373;
+  font-size: 35px;
+}
+.skillblock {
+  padding: 20px;
+  margin: 20px;
+  color: #ffe4e1;
+
 }
 .slider-image {
   height: 600px;
