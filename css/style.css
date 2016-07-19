@@ -79,10 +79,12 @@
 .skillblock p {
   font-family: 'Shadows Into Light', cursive;
   font-size: 28px;
-  transition: font-size 0.8s ease, color 0.3s ease;
+  padding: 1px;
+  transition: font-size 0.3s ease, color 0.3s ease, padding 0.3s ease;
 }
 .skillblock p:hover {
   color: #ff7373;
+  padding: -1px;
   font-size: 35px;
 }
 .skillblock {
@@ -219,8 +221,7 @@
 }
 .project:hover .visible-content {
   opacity: 0;
-  transition: all 0.8s ease;
-  
+  transition: opacity 0.5s ease;
 }
 span.project-content {
   background: rgba(0,0,0,0.7);
@@ -231,12 +232,12 @@ span.project-content {
   position: absolute;
   opacity: 0;
   min-width: auto;
-  transition: all 0.8s ease;
 }
 .project:hover span.project-content {
   opacity: 1;
   min-height: 371px;
   width: 100%;
+  transition: opacity 0.5s ease;
 }
 .project-link {
   border: 1px solid grey;
