@@ -25,7 +25,7 @@ var Home = React.createClass({
 					<h1><span className="place"> Hi, I&#39;m </span><span className="designation">Kasturi</span></h1>
 					<h3><span className="place">A Sydney based </span><span className="designation">Web Developer</span><span className="place"></span></h3>
 					<hr></hr>
-					<div className="skillblock animated fadeIn">
+					<div className="skillblock animated swing">
 						<p>JavaScript</p>
 						<p>jQuery</p>
 						<p>React</p>
@@ -46,34 +46,6 @@ var Home = React.createClass({
 				<a href="https://au.linkedin.com/in/kasturi-ghosh-das-870726b7" className="fa fa-linkedin social-icons" aria-hidden="true"></a>
 				<a href="mailto:kasturi.dona@gmail.com" className="fa fa-envelope-o social-icons" aria-hidden="true"></a>
 				<a className="social-icons" href="#/resume">CV</a>
-				</div>
-			</div>
-		);
-	}
-});
-
-var HomeOld = React.createClass({
-	render: function() {
-		return (
-			<div className="home">
-				<div className="row">
-					<div className="col-xs-3 home-social">
-						<h2 className="description">Engineer<br />MBA<br />Bibliophile</h2>
-					</div>
-					<div className="col-xs-6">
-						<img className="profile-pic img-responsive" src="images/profile-pic.jpg" alt="Kasturi Ghosh Das"></img>
-						<div className="home-info">
-							<h1><span className="place"> Hi, I&#39;m </span><span className="designation">Kasturi</span></h1>
-							<hr></hr>
-							<h3><span className="place">A Sydney based </span><span className="designation">Web Developer</span><span className="place"></span></h3>
-						</div>
-					</div>
-					<div className="col-xs-3 home-social">
-							<p><a href="https://github.com/KasturiDona" className="fa fa-github social-icons" aria-hidden="true"></a></p>
-							<p><a href="https://twitter.com/DonaKasturi" className="fa fa-twitter social-icons" aria-hidden="true"></a></p>
-							<p><a href="https://au.linkedin.com/in/kasturi-ghosh-das-870726b7" className="fa fa-linkedin social-icons" aria-hidden="true"></a></p>
-							<p><a href="mailto:kasturi.dona@gmail.com" className="fa fa-envelope-o social-icons" aria-hidden="true"></a></p>
-					</div>
 				</div>
 			</div>
 		);

@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,300);
-@import url(https://fonts.googleapis.com/css?family=Orbitron:500,700);
 @import 'https://fonts.googleapis.com/css?family=Shadows+Into+Light';
 
 * {
@@ -79,7 +78,6 @@
 }
 .skillblock p {
   font-family: 'Shadows Into Light', cursive;
-  /*font-family: 'Orbitron', sans-serif;*/
   font-size: 28px;
   transition: font-size 0.8s ease, color 0.3s ease;
 }
@@ -231,6 +229,7 @@ span.project-content {
   position: absolute;
   opacity: 0;
   min-width: auto;
+  transition: all 0.8s ease;
 }
 .project:hover span.project-content {
   opacity: 1;
