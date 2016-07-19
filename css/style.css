@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,300);
 @import url(https://fonts.googleapis.com/css?family=Orbitron:500,700);
+@import 'https://fonts.googleapis.com/css?family=Shadows+Into+Light';
+
 * {
   font-family: 'Josefin Sans', sans-serif;
   margin: 0 auto;
@@ -68,7 +70,7 @@
 }
 .social-icons {
   font-size: 30px;
-  padding: 0 5px;
+  padding: 0 15px;
   color: #FF7373;
 }
 .social-icons:hover {
@@ -76,7 +78,8 @@
   color: #f6546a;
 }
 .skillblock p {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
+  /*font-family: 'Orbitron', sans-serif;*/
   font-size: 28px;
   transition: font-size 0.8s ease, color 0.3s ease;
 }

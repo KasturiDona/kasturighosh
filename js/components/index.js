@@ -45,6 +45,7 @@ var Home = React.createClass({
 				<a href="https://twitter.com/DonaKasturi" className="fa fa-twitter social-icons" aria-hidden="true"></a>
 				<a href="https://au.linkedin.com/in/kasturi-ghosh-das-870726b7" className="fa fa-linkedin social-icons" aria-hidden="true"></a>
 				<a href="mailto:kasturi.dona@gmail.com" className="fa fa-envelope-o social-icons" aria-hidden="true"></a>
+				<a className="social-icons" href="#/resume">CV</a>
 				</div>
 			</div>
 		);
