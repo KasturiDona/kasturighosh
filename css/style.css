@@ -219,6 +219,8 @@
 }
 .project:hover .visible-content {
   opacity: 0;
+  transition: all 0.8s ease;
+  
 }
 span.project-content {
   background: rgba(0,0,0,0.7);
