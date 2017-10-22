@@ -80,7 +80,7 @@
   font-family: 'Shadows Into Light', cursive;
   font-size: 28px;
   padding: 1px;
-  transition: font-size 0.3s ease, color 0.3s ease, padding 0.3s ease;
+  transition: font-size 0.s ease, color 0.s ease, padding 0.s ease;
 }
 .skillblock p:hover {
   color: #ff7373;

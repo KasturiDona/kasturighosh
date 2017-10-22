@@ -23,11 +23,13 @@ var Home = React.createClass({
 			<div className="home">
 				<div className="home-info">
 					<h1><span className="place"> Hi, I&#39;m </span><span className="designation">Kasturi</span></h1>
-					<h3><span className="place">A Sydney based </span><span className="designation">Web Developer</span><span className="place"></span></h3>
+					<h3><span className="place">A Sydney based </span><span className="designation">Developer</span><span className="place"></span></h3>
 					<hr></hr>
 					<div className="skillblock animated swing">
 						<p>JavaScript</p>
 						<p>jQuery</p>
+            <p>ColdFusion</p>
+            <p>Microsoft SQL Server</p>
 						<p>React</p>
 						<p>HTML 5</p>
 						<p>CSS 3</p>
@@ -43,7 +45,7 @@ var Home = React.createClass({
 				<div>
 				<a href="https://github.com/KasturiDona" className="fa fa-github social-icons" aria-hidden="true"></a>
 				<a href="https://twitter.com/DonaKasturi" className="fa fa-twitter social-icons" aria-hidden="true"></a>
-				<a href="https://au.linkedin.com/in/kasturi-ghosh-das-870726b7" className="fa fa-linkedin social-icons" aria-hidden="true"></a>
+				<a href="https://au.linkedin.com/in/kasturi-ghosh-870726b7" className="fa fa-linkedin social-icons" aria-hidden="true"></a>
 				<a href="mailto:kasturi.dona@gmail.com" className="fa fa-envelope-o social-icons" aria-hidden="true"></a>
 				<a className="social-icons" href="#/resume">CV</a>
 				</div>
@@ -148,7 +150,7 @@ var About = React.createClass({
         <div className="about">
           <h3>
             I MOVED DOWN UNDER<br /><hr></hr>
-          2015 was big! I got married and moved to Sydney.<br /><hr className="no-border"></hr>
+          I moved to Sydney in 2015.<br /><hr className="no-border"></hr>
         I focused on full stack Web Development by enrolling into <a href="https://generalassemb.ly/education/web-development-immersive/sydney" className="about-link" target="_blank">General Assembly&#39;s Week Web Development Immersive Course</a> (it literally changed my life).<br /><hr className="no-border"></hr>
       I enjoyed every moment of the 12 weeks I spent there and I loved learning about the wonderful new technologies being developed on the front and back ends.
           </h3>
@@ -158,14 +160,14 @@ var About = React.createClass({
           <h3>
             WEB DEVELOPMENT EXPERIENCE<br /><hr></hr>
             Since graduating from General Assembly&#39;s WDI 10 batch, I have been working on short-term contract roles for different companies.<br /><hr className="no-border"></hr>
-            I did a 2 month internship at a startup, worked as a Teaching Assistant for WDI 13, contracted as a Graduate developer at Rozetta Technology and now I&#39;m completing a Junior front-end developer role at a FinTech, working closely with React.
+            I did a 2 month internship at a startup, worked as a Teaching Assistant for WDI 13, contracted as a Graduate developer at Rozetta Technology and then as a Junior front-end developer role at a FinTech, working closely with React. Now I&#39;m a Developer at Gracenote (A Nielsen Company).
           </h3>
         </div></div>
         <div><img src="images/coding1.jpg" className="slider-image img-responsive" />
         <div className="about">
           <h3>
             WHAT I&#39;D LIKE TO DO NEXT<br /><hr></hr>
-            I look forward to more permanent or long-term contract roles as a Junior Developer for an organization that will mentor me and help me transition into a more full-stack role.
+            I look forward to growing more as a Developer, learning more stacks becoming a better programmer everyday. 
           </h3>
         </div></div>
         <div><img src="images/hackathon.jpg" className="slider-image img-responsive" />
@@ -317,7 +319,7 @@ var Resume = React.createClass({
 					<ul className="resume-contact">
 						<li><a href="https://github.com/KasturiDona" className="fa fa-github" aria-hidden="true"></a></li>
 						<li><a href="https://twitter.com/DonaKasturi" className="fa fa-twitter" aria-hidden="true"></a></li>
-						<li><a href="https://au.linkedin.com/in/kasturi-ghosh-das-870726b7" className="fa fa-linkedin" aria-hidden="true"></a></li>
+						<li><a href="https://au.linkedin.com/in/kasturi-ghosh-870726b7" className="fa fa-linkedin" aria-hidden="true"></a></li>
 						<li><a href="mailto:kasturi.dona@gmail.com" className="fa fa-envelope-o" aria-hidden="true"></a></li>
 					</ul>
 					<h2>SKILLS</h2>
@@ -327,13 +329,11 @@ var Resume = React.createClass({
 						<li>JavaScript | jQuery</li>
 						<li>Ruby | Ruby-on-Rails</li>
 						<li>HTML/CSS | Bootstrap</li>
-						<li>React | Angular</li>
-						<li>Highcharts | Underscore</li>
+						<li>React | Highcharts</li>
 						<li>D3.js | Three.js</li>
-						<li>AJAX | C# | SQL | .NET</li>
+						<li>AJAX | Coldfusion | SQL</li>
 						<li>RESTful APIs</li>
-						<li>Github | SVN</li>
-						<li>Heroku | AWS</li>
+						<li>Github | Heroku</li>
 					</ul>
 					<hr></hr>
 					<h3>Others</h3>
@@ -371,22 +371,33 @@ var Resume = React.createClass({
 					<p className="edu">Sketching</p>
 				</div>
 				<div className="col-xs-8">
-					<h1>KASTURI GHOSH DAS</h1>
+					<h1>KASTURI GHOSH</h1>
 					<h3>Web Developer</h3>
 					<hr></hr>
-					<p className="role">With a background in Engineering and Management, I love to code and de- sign. I am passionate about learning and developing new technologies. I am committed to meeting client milestones on schedule and under budget. I look for projects that challenge me.</p>
+					<p className="role">With a background in Engineering and Management, I love to code and design. I am passionate about learning and developing new technologies. I am committed to meeting client milestones on schedule and under budget. I look for projects that challenge me.</p>
 					<h2>Work Experience</h2>
+          <hr></hr>
+          <div className="row">
+            <div className="col-xs-6">
+              <h3>Gracenote (A Nielsen Company)</h3>
+            </div>
+            <div className="col-xs-3 time">
+              <p>Aug 2016 - Present</p>
+            </div>
+          </div>
+          <p className="title">Software Developer | Sydney</p>
+          <p className="role">My team and I am are responsible for evolving the metadata mangement platform that is used by the editorial teams to create world class metadata products.</p>
 					<hr></hr>
 					<div className="row">
 						<div className="col-xs-6">
 							<h3>REPUBLIC CAPITAL MANAGEMENT</h3>
 						</div>
 						<div className="col-xs-3 time">
-							<p>May 2016 - Present</p>
+							<p>May 2016 - July 2016</p>
 						</div>
 					</div>
-					<p className="title">Junior Front End Engineer | Sydney</p>
-					<p className="role">As a front-end engineer I am working on various React based projects.</p>
+					<p className="title">Front End Engineer | Sydney</p>
+					<p className="role">I worked on various React based projects for this Financial based startup providing automated investment solutions.</p>
 					<hr></hr>
 					<div className="row">
 						<div className="col-xs-6">
@@ -397,7 +408,7 @@ var Resume = React.createClass({
 						</div>
 					</div>
 					<p className="title">Junior Web Developer | Sydney</p>
-					<p className="role">As a front-end web developer, I have designed a prototype Stock Market Visualisation tool for the ASX using D3.js, Hicharts.js and AWS.</p>
+					<p className="role">I designed a prototype Stock Market Visualisation tool for the ASX dealing closely with Big Data solutions, Analytics and Data Visualisation.</p>
 					<hr></hr>
 						<div className="row">
 							<div className="col-xs-6">
@@ -408,7 +419,7 @@ var Resume = React.createClass({
 							</div>
 						</div>
 					<p className="title">Teaching Assistant | Sydney</p>
-					<p className="role">As a Teaching Assistant, I helped lecturers co-ordinate the Web Development Immersive class with a focus on full-stack web development technologies: HTML/CSS, Javascript, jQuery, Ruby, Ruby-on-Rails and Github.</p>
+					<p className="role">I helped lecturers co-ordinate the Web Development Immersive class with a focus on full-stack web development technologies: HTML/CSS, Javascript, jQuery, Ruby, Ruby-on-Rails and Github.</p>
 					<hr></hr>
 						<div className="row">
 							<div className="col-xs-6">
@@ -419,7 +430,7 @@ var Resume = React.createClass({
 							</div>
 						</div>
 					<p className="title">Web Developer Intern | Sydney</p>
-					<p className="role">As an intern I designed and built the Cloudchecker and Cloudster websites using Javascript, jQuery, HTML/CSS, Bootstrap and Photoshop.</p>
+					<p className="role">I designed and built the Cloudchecker and Cloudster websites using Javascript, jQuery, HTML/CSS, Bootstrap and Photoshop.</p>
 					<hr></hr>
 						<div className="row">
 							<div className="col-xs-6">
@@ -430,7 +441,7 @@ var Resume = React.createClass({
 							</div>
 						</div>
 					<p className="title">Associate Technical Writer | Bangalore</p>
-					<p className="role">As a Technical writer, I have written, reviewed and published documents for the ERP, CRM and MES products pertaining to new releases, service packs and bug fixes by collaborating with the Dev Ops and QA teams. These doc- uments are used by the Executive, Marketing and Sales teams.</p>
+					<p className="role">I have written, reviewed and published documents for the ERP, CRM and MES products pertaining to new releases, service packs and bug fixes by collaborating with the Dev Ops and QA teams. These documents are used by the Executive, Marketing and Sales teams.</p>
 					<hr></hr>
 						<div className="row">
 							<div className="col-xs-6">
